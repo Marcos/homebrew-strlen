@@ -12,22 +12,22 @@ class Strlen < Formula
   on_macos do
     if Hardware::CPU.intel?
       url "https://github.com/Marcos/strlen/releases/download/v0.0.1/strlen_0.0.1_Darwin_x86_64.tar.gz"
-      sha256 "af4a2040aedd4a8e2dc33323dee3223a10b80edc101a0e4f2318c3d117fddf1e"
+      sha256 "7ee5155f440f9c9b9cf20dc4b9bcba5cb19bd1e928cac3ad48fc01f164bd38b4"
     end
     if Hardware::CPU.arm?
       url "https://github.com/Marcos/strlen/releases/download/v0.0.1/strlen_0.0.1_Darwin_arm64.tar.gz"
-      sha256 "0c50817b84f7dea86222bbab4a98b377c304f1f219a4bcfb89cccd71e0393a7d"
+      sha256 "b813209189eff6ddd8bf8ba23a6387c8fafeff2dc32166e279d7070030c10303"
     end
   end
 
   on_linux do
     if Hardware::CPU.intel?
       url "https://github.com/Marcos/strlen/releases/download/v0.0.1/strlen_0.0.1_Linux_x86_64.tar.gz"
-      sha256 "ccff1a0bbb876489795668ff955f9a2858089584e212614dfea12df006d0c004"
+      sha256 "4b06062e465497e988b5864aaaef2156153d6bd3dbd4751334728e5e9b33505e"
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
       url "https://github.com/Marcos/strlen/releases/download/v0.0.1/strlen_0.0.1_Linux_arm64.tar.gz"
-      sha256 "5420ec72c73789292618a4ad803e8cedeee74e3013b102e751e3b2140648f487"
+      sha256 "edd9f35b01d9d387904d9689a13a87eaa17a5edc8b229d5525fa7d9c23e853a5"
     end
   end
 
