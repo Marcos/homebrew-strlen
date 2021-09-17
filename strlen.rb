@@ -5,29 +5,29 @@
 class Strlen < Formula
   desc "An app that tells you the length of a string"
   homepage "https://github.com/marcos/strlen"
-  version "0.0.1"
+  version "0.0.2"
   license "BSD-3-Clause"
   bottle :unneeded
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/Marcos/strlen/releases/download/v0.0.1/strlen_0.0.1_Darwin_x86_64.tar.gz"
-      sha256 "7ee5155f440f9c9b9cf20dc4b9bcba5cb19bd1e928cac3ad48fc01f164bd38b4"
+      url "https://github.com/Marcos/strlen/releases/download/v0.0.2/strlen_0.0.2_Darwin_x86_64.tar.gz"
+      sha256 "02b0a33f9842e5eb0dc79d97a85969bc2f5688e1d8f6d8806569af7ae573880e"
     end
     if Hardware::CPU.arm?
-      url "https://github.com/Marcos/strlen/releases/download/v0.0.1/strlen_0.0.1_Darwin_arm64.tar.gz"
-      sha256 "b813209189eff6ddd8bf8ba23a6387c8fafeff2dc32166e279d7070030c10303"
+      url "https://github.com/Marcos/strlen/releases/download/v0.0.2/strlen_0.0.2_Darwin_arm64.tar.gz"
+      sha256 "2cf8be17904177ca5cd79f2d7dbba95a105b97d8fa68d8e3797b6afbe95ebd5e"
     end
   end
 
   on_linux do
     if Hardware::CPU.intel?
-      url "https://github.com/Marcos/strlen/releases/download/v0.0.1/strlen_0.0.1_Linux_x86_64.tar.gz"
-      sha256 "4b06062e465497e988b5864aaaef2156153d6bd3dbd4751334728e5e9b33505e"
+      url "https://github.com/Marcos/strlen/releases/download/v0.0.2/strlen_0.0.2_Linux_x86_64.tar.gz"
+      sha256 "92f0a0994a657fe15b19aa849534a3370b420e0a9fe094b08b31c72a294b0ace"
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/Marcos/strlen/releases/download/v0.0.1/strlen_0.0.1_Linux_arm64.tar.gz"
-      sha256 "edd9f35b01d9d387904d9689a13a87eaa17a5edc8b229d5525fa7d9c23e853a5"
+      url "https://github.com/Marcos/strlen/releases/download/v0.0.2/strlen_0.0.2_Linux_arm64.tar.gz"
+      sha256 "ce204e10bef57a242a66ad37fe08f746f1e9c5c115c8bfbc0aef45980fa9dfd9"
     end
   end
 
